@@ -10,6 +10,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "deploy": "ng build && surge dist --domain carpool-riceapps.surge.sh"
+    "create-env": "printenv > .env"
   },
   "private": true,
   "dependencies": {
